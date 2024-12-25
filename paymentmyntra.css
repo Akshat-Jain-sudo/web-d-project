@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+/* Main navigation (Men, Women) */
+.main-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 300px;
+    background-color:rgb(220, 215, 215);
+    font-weight: bold;
+    
+}
+
+/* Profile navigation (Wishlist, Bag, Profile) */
+.profile-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between Wishlist, Bag, and Profile */
+}
+
+.profile-nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-nav a img {
+    width: 20px; /* Adjust the size of icons */
+    height: 20px;
+}
+
+a:hover {
+    font-size: 18px;
+}
+
+.super {
+    color: red;
+}
+
+/* Flex container for navigation and profile */
+.nav-profile-container {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* Space between main navigation and profile links */
+}
+.desc{
+    width: 300px;
+    height: 200px;
+    border:#ccc;
+    border-width: thick;
+    position: relative;
+    float: right;    
+    top: 40px;
+    right: 90px;
+    background-color:gray;
+    z-index: 100;
+    padding-top: 50px;
+    text-wrap:wrap;
+    text-align: center;
+}
+.wel{
+    padding: 50px;
+}
+.offer{
+    
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    height: 50px;
+    width:80%;
+    align-self: center;
+    text-align: center;
+}
+#subhead{
+    padding-top: 9vh;
+    color: blue;
+    text-decoration: none;
+}
+.parent{
+    align-items: center;
+    
+}
+h3{
+    text-align: center;
+}
+.Payment{
+    text-align: center;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+    align-content: center;
+    height: 30px;
+    width: 70%;
+}
+option{
+    font-weight: bold;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropdown-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+/* Dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    min-width: 160px;
+    z-index: 1;
+    font-size: 25px;
+}
+
+/* Links inside dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+}
+
+/* Hover effect for links */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show dropdown when hovering */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change button color on hover */
+.dropdown:hover .dropdown-btn {
+    background-color: #2980b9;
+}
+button{
+    font-size: 30px;
+
+    
+}
+.button>.a{
+    text-decoration: none;
+    color:aqua
+}
+.up{
+    position:relative;
+    margin-top: -30px;
+}

@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{ 
+  border-radius: 20px;
+  width: 150px;
+
+}
+.Photo1{
+    width: 900px;
+    height: 300px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+    transition:width 2s height 2s;
+    transform: scale(1.05);
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+/* Main navigation (Men, Women) */
+.main-nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 300px;
+    background-color:rgb(228, 227, 227);
+    font-weight: bold;
+    
+}
+
+/* Profile navigation (Wishlist, Bag, Profile) */
+.profile-nav {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.profile-nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.profile-nav a img {
+    width: 20px; 
+    height: 20px;
+}
+
+a:hover {
+    font-size: 18px;
+}
+
+.super {
+    color: red;
+}
+
+/* Flex container for navigation and profile */
+.nav-profile-container {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+}
+.desc{
+    width: 300px;
+    height: 200px;
+    border:#ccc;
+    border-width: thick;
+    position: relative;
+    float: right;    
+    top: 40px;
+    right: 90px;
+    background-color:gray;
+    z-index: 100;
+    padding-top: 50px;
+    text-wrap:wrap;
+    text-align: center;
+    text-shadow:2px 2px 5px #f7f7f7
+}
+.wel{
+    padding: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f7f7;
+    padding-left: 220px;
+    padding-right: 220px;
+  }
+  
+  .category-heading{
+    color: #ee6780;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .product_types {
+    display: flex table-column;
+    gap: 8px;
+    justify-content: space-around;
+    overflow:hidden ;
+  }
+  .product_categries {
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .product_categries img {
+    width: 100%;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+  }
+  
+  .product_categries img:hover {
+    transform: scale(1.05);
+    transform: all 0.3s ease-in-out;
+  }
+  .practical{
+    position: relative;
+    top:20px;
+    z-index: 200;
+  }

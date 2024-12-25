@@ -1,0 +1,356 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{ 
+  border-radius: 20px;
+  width: 150px;
+
+}
+body{
+    font-family: 'Assistant', sans-serif;
+    overflow-x: hidden;
+}
+:root{
+    --footer-text: rgb(83,87,102);
+    --text-color: rgb(40,44,63);
+}
+header {
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+/* Main navigation (Men, Women) */
+.main-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 300px;
+  background-color:rgb(234, 232, 232);
+  font-weight: bold;
+  
+}
+
+/* Profile navigation (Wishlist, Bag, Profile) */
+.profile-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between Wishlist, Bag, and Profile */
+}
+
+.profile-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.profile-nav a img {
+  width: 20px; /* Adjust the size of icons */
+  height: 20px;
+}
+
+a:hover {
+  font-size: 18px;
+}
+
+.super {
+  color: red;
+}
+
+/* Flex container for navigation and profile */
+.nav-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* Space between main navigation and profile links */
+}
+.desc{
+  width: 300px;
+  height: 200px;
+  border:#ccc;
+  border-width: thick;
+  position: relative;
+  float: right;    
+  top: 40px;
+  right: 90px;
+  background-color:gray;
+  z-index: 100;
+  padding-top: 50px;
+  text-wrap:wrap;
+  text-align: center;
+}
+.wel{
+  padding: 50px;
+}
+
+
+ .navbar, .navbar2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    background-color: white;
+    z-index: 1;
+  }
+  .left_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .left_nav i{
+      font-size: 22px;
+      line-height: 6px;
+      display: none;
+  }
+  .left_nav img{
+    position: relative;
+    cursor: pointer;
+    height: 65%;
+  }
+  .left_nav .a{
+    position: absolute;
+    width: 3%;
+    height: 30%;
+    left: 7%;
+    z-index: 5;
+  }
+  
+  .left_nav .catagory {
+    height: 100%;
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .left_nav .catagory li {
+    border-bottom: solid white;
+    padding: 28px 0;
+    text-decoration: none;
+    color: #282c3f;
+  }
+  
+  .left_nav .catagory span {
+    text-align: left;
+    margin-left: -28px;
+    margin-top: -15px;
+    font-size: 10px;
+    color: #ff3f6c;
+    font-weight: 700;
+  }
+  
+  .left_nav .catagory li a {
+    height: 100%;
+    text-decoration: none;
+    color: #282c3f;
+    font-weight: 700;
+  }
+  .right_nav {
+    display: flex;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .home-searchbar {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: calc(80px - 30px);
+  }
+  .home-searchbar input {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    font-size: 13px;
+    height: 20px;
+    line-height: 24px;
+    color: #696e79;
+    box-sizing: content-box;
+    padding: 8px 10px 10px 50px;
+    border: 1px solid #f0f0f1;
+    border-radius: 4px;
+    background: #f5f5f6;
+  }
+  .home-iconbar {
+    display: flex;
+    font-size: 12px;
+    line-height: 6px;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    margin-left: 1.3rem;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+  
+  .home-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+  }
+  
+  .home-profile i {
+    font-size: 17px;
+  }
+
+  .navbar2{
+    top: 60px;
+    padding-top: 10px;
+    display: none;
+  }
+  .navbar2 .mobile-men{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 0;
+  }
+  .navbar2 .mobile-men a img{
+    border-radius: 50%;
+    max-width: 100%;
+    height: 50px;
+    box-shadow: 0 0 5px 0 rgba(0,0, 0, 0.4);
+  }
+  
+.container{
+    height: 90vh;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.card1{
+    height: auto;
+    width: auto;
+}
+.card2{
+    height: auto;
+    width: auto;
+}
+.card5{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.card6{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.card7{
+    height: auto;
+    width: auto;
+}
+.card8{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.card9{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+.card10{
+    display: flex;
+    width: 60%;
+}
+.card10 img{
+    width: 100%;
+}
+.lastrow{
+    display: flex;
+    justify-content: center;
+}
+
+.card11{
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.image{ 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+}
+.footer_first_section{
+    display: flex;
+    gap:3rem;
+    margin-left: 100px;
+}
+
+.online_cust_class ul ,.online_cust_class_2 ul{
+    list-style: none;
+}
+
+.online_cust_class ul li, .online_cust_class_2 ul li{
+    margin-top: 5px;
+}
+
+.online_cust_class  a, .online_cust_class_2 a, .get_app a{
+    text-decoration: none;
+    color: black;
+}
+
+.online_cust_class  li>a, .online_cust_class_2 li > a{
+    font-size: 15px;
+    color:#696B79;
+    font-weight: 400;
+}
+
+.online_cust_class p, .online_cust_class_2 p, .get_app p{
+    font-weight:700;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color:black;
+    margin: 25px 0;
+}
+
+.get_app img{
+    width: 130px;
+    height: 42px;
+}

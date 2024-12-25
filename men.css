@@ -1,0 +1,289 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{ 
+  border-radius: 20px;
+  width: 150px;
+
+}
+header {
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+
+/* Profile navigation (Wishlist, Bag, Profile) */
+.profile-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+.profile-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.profile-nav a img {
+  width: 20px; 
+  height: 20px;
+}
+
+a:hover {
+  font-size: 18px;
+}
+
+.super {
+  color: red;
+}
+
+/* Flex container for navigation and profile */
+.nav-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+}
+.desc{
+  width: 300px;
+  height: 200px;
+  border:#ccc;
+  border-width: thick;
+  position: relative;
+  float: right;    
+  top: 40px;
+  right: 90px;
+  background-color:gray;
+  z-index: 100;
+  padding-top: 50px;
+  text-wrap:wrap;
+  text-align: center;
+}
+.wel{
+  padding: 50px;
+}
+
+
+body{
+    width: 100%;
+    font-family: 'Assistant', sans-serif;
+    overflow-x: hidden;
+}
+.men{
+    display: inline-block;
+    margin-top: 16vh;
+    width: 100vw;
+}
+.men-container{
+    color: aliceblue;
+    
+}
+.men-card2{
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+.men-card5{
+    display: flex;
+    height: auto;
+    width: 100%;
+    cursor: pointer;
+}
+.men-card6{
+    display: flex;
+    height: auto;
+    width: 100%;
+    cursor: pointer;
+}
+.men-card7{
+    display: flex;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+.men-card8{
+    display: flex;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+.men-card9{
+    display: flex;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+
+.men-card10{
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.men-card10-1, .men-card10-2, .men-card10-3, .men-card10-4{
+    width: 227px;
+    cursor: pointer;
+}
+.men-card11{
+    display: flex;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+}
+.men-image{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    cursor: pointer;
+}
+.footer_first_section{
+    display: flex;
+    gap:3rem;
+    margin-left: 100px;
+}
+
+.online_cust_class ul ,.online_cust_class_2 ul{
+    list-style: none;
+}
+
+.online_cust_class ul li, .online_cust_class_2 ul li{
+    margin-top: 5px;
+}
+
+.online_cust_class  a, .online_cust_class_2 a, .get_app a{
+    text-decoration: none;
+    color: black;
+}
+
+.online_cust_class  li>a, .online_cust_class_2 li > a{
+    font-size: 15px;
+    color:#696B79;
+    font-weight: 400;
+}
+.online_cust_class p, .online_cust_class_2 p, .get_app p{
+    font-weight:700;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color:black;
+    margin: 25px 0;
+}
+header {
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+/* Main navigation (Men, Women) */
+.main-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: bold;
+}
+input[type="text"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 300px;
+  background-color:darkgrey;
+  font-weight: bold;
+  
+}
+/* Profile navigation (Wishlist, Bag, Profile) */
+.profile-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+.profile-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+.profile-nav a img {
+  width: 20px; 
+  height: 20px;
+}
+a:hover {
+  font-size: 18px;
+}
+.super {
+  color: red;
+}
+/* Flex container for navigation and profile */
+.nav-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+}
+.desc{
+  width: 300px;
+  height: 200px;
+  border:#ccc;
+  border-width: thick;
+  position: relative;
+  float: right;    
+  top: 40px;
+  right: 90px;
+  background-color:gray;
+  z-index: 100;
+  padding-top: 50px;
+  text-wrap:wrap;
+  text-align: center;
+}
+.wel{
+  padding: 50px;
+}
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  padding-left: 220px;
+  padding-right: 220px;
+}
+footer a {
+  cursor: pointer;
+  color: #696b79;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.get_app img{
+    width: 130px;
+    height: 42px;
+}
+.main-container{
+    width: 100%;
+}
